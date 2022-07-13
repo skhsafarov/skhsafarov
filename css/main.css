@@ -1,0 +1,69 @@
+main {
+    position: relative;
+    perspective: 1px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    position: relative;
+}
+section h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+.section1 {
+    z-index: -1;
+}
+
+.section1::before {
+    content: '';
+    background-image: url('../img/pano2-cropped+and+healed.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    transform: translateZ(-1px) scale(2);
+}
+
+.section2 {
+    z-index: -2;
+    margin-top: 100vh;
+}
+
+.section2::before {
+    content: '';
+    background-image: url('../img/webcomics+banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    transform: translateZ(-2px) scale(3);
+}
+
+.section3 {
+    z-index: -3;
+    margin-top: 200vh;
+}
+
+.section3::before {
+    content: '';
+    background-image: url('../img/image-asset.jpeg');
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    transform: translateZ(-3px) scale(4);
+}
