@@ -1,6 +1,6 @@
 main {
     position: relative;
-    perspective: 1px;
+    perspective: 5px;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -11,21 +11,22 @@ main section {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    min-height: 100vh;
     box-sizing: border-box;
     transform-style: preserve-3d;
     position: relative;
 }
-section h1{
+
+section h1 {
     font-size: 100px;
     color: #fff;
 }
 
 .section1 {
     z-index: -1;
+    min-height: 100vh;
 }
 
-.section1::before {
+.bg1 {
     content: '';
     background-image: url('../img/pano2-cropped+and+healed.jpg');
     background-position: center center;
@@ -33,15 +34,16 @@ section h1{
     width: 100vw;
     min-height: 100vh;
     position: absolute;
-    transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(1.2);
 }
 
 .section2 {
     z-index: -2;
-    margin-top: 100vh;
+    margin-top: 20vh;
+    min-height: 100vh;
 }
 
-.section2::before {
+.bg2 {
     content: '';
     background-image: url('../img/webcomics+banner.jpg');
     background-position: center center;
@@ -49,15 +51,16 @@ section h1{
     width: 100vw;
     min-height: 100vh;
     position: absolute;
-    transform: translateZ(-2px) scale(3);
+    transform: translateZ(-2px) scale(1.4);
 }
 
 .section3 {
     z-index: -3;
-    margin-top: 200vh;
+    margin-top: 40vh;
+    min-height: 100vh;
 }
 
-.section3::before {
+.bg3 {
     content: '';
     background-image: url('../img/image-asset.jpeg');
     background-position: center center;
@@ -65,5 +68,5 @@ section h1{
     width: 100vw;
     min-height: 100vh;
     position: absolute;
-    transform: translateZ(-3px) scale(4);
+    transform: translateZ(-3px) scale(1.6);
 }

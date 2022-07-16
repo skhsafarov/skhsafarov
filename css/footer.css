@@ -1,8 +1,32 @@
-footer{
-    background-color: black;
-    width: calc(100vw - 10px);
-    height: 37.55vh;
-    position: absolute;
-    z-index: -10;
-    margin-top: -37.55vh;
+.footer {
+    position: relative;
+    background-color: #191606;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+}
+
+.footer ul {
+    --white: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.footer ul:hover {
+    --white: rgba(256, 256, 256, 0.5)
+}
+
+.footer ul li {
+    margin: 0px 10px;
+}
+
+.footer ul li svg {
+    fill: var(--white);
+}
+.footer ul li svg:hover{
+    --white: white;
 }
