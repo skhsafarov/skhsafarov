@@ -1,5 +1,5 @@
 .footer {
-    position: relative;
+    position: static;
     background-color: #191606;
     height: 30vh;
     display: flex;

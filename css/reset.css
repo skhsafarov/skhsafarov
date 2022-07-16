@@ -33,7 +33,9 @@ body {
     font-size: 16px;
     background: #fff;
     color: #000;
+    overflow: hidden;
 }
+
 ul {
     list-style-type: none;
 }

@@ -4,9 +4,10 @@ main {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-main section {
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ section h1 {
     color: #fff;
 }
 
-.section1 {
+#section1 {
     z-index: -1;
     min-height: 100vh;
 }
@@ -37,7 +38,7 @@ section h1 {
     transform: translateZ(-1px) scale(1.2);
 }
 
-.section2 {
+#section2 {
     z-index: -2;
     margin-top: 20vh;
     min-height: 100vh;
@@ -54,7 +55,7 @@ section h1 {
     transform: translateZ(-2px) scale(1.4);
 }
 
-.section3 {
+#section3 {
     z-index: -3;
     margin-top: 40vh;
     min-height: 100vh;

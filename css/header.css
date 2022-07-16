@@ -1,0 +1,21 @@
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-size: 25px;
+}
+.header a{
+}
+.header ul {
+    display: flex;
+    font-size: 20px;
+}
+.header ul li{
+    margin: 0px 10px;
+}
+.header a, .header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
