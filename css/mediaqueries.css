@@ -1,0 +1,82 @@
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        position: absolute;
+        padding: 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 16px;
+        width: 100vw;
+        height: 390vh;
+    }
+
+    header>.nav {
+        position: sticky;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        width: calc(100vw - 2.8em);
+        margin-left: calc(2.8em - 100vw);
+        height: 100vh;
+        transition: 1s;
+    }
+
+    #toggle:checked~.nav {
+        margin-left: 0;
+    }
+
+    header>.menu-btn {
+        position: sticky;
+        top: 0;
+        display: flex;
+    }
+
+
+    header>nav>a {
+        margin: 1em 2em;
+        text-align: center;
+
+    }
+
+    header>nav>ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    header>nav>ul>li {
+        margin: 1em 6em;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    footer>ul {
+        margin-left: 0;
+        padding: 0;
+    }
+}

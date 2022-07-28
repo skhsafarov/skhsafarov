@@ -1,12 +1,3 @@
-main {
-    position: relative;
-    perspective: 5px;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-
 .main {
     display: flex;
     align-items: center;
@@ -17,22 +8,29 @@ main {
     position: relative;
 }
 
-section h1 {
-    font-size: 100px;
+.main > h1 {
+    font-family: "TrumpGothicPro";
     color: #fff;
+    font-size: 6.5625rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main > h1:hover{
+    opacity: 0.5;
 }
 
 #section1 {
     z-index: -1;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .bg1 {
-    content: '';
     background-image: url('../img/pano2-cropped+and+healed.jpg');
     background-position: center center;
     background-size: cover;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     position: absolute;
     transform: translateZ(-1px) scale(1.2);
@@ -41,15 +39,15 @@ section h1 {
 #section2 {
     z-index: -2;
     margin-top: 20vh;
+    min-width: 100vw;
     min-height: 100vh;
 }
 
 .bg2 {
-    content: '';
     background-image: url('../img/webcomics+banner.jpg');
     background-position: center center;
     background-size: cover;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     position: absolute;
     transform: translateZ(-2px) scale(1.4);
@@ -58,15 +56,15 @@ section h1 {
 #section3 {
     z-index: -3;
     margin-top: 40vh;
+    min-width: 100vw;
     min-height: 100vh;
 }
 
 .bg3 {
-    content: '';
     background-image: url('../img/image-asset.jpeg');
     background-position: center center;
     background-size: cover;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     position: absolute;
     transform: translateZ(-3px) scale(1.6);

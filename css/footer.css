@@ -1,14 +1,13 @@
-.footer {
+footer {
     position: static;
     background-color: #191606;
-    height: 30vh;
     display: flex;
-    align-items: center;
-    justify-content: start;
+    width: 100vw;
+    height: 30vh;
     color: #fff;
 }
 
-.footer ul {
+footer ul {
     --white: #ffffff;
     display: flex;
     justify-content: center;
@@ -16,17 +15,17 @@
     margin-left: 100px;
 }
 
-.footer ul:hover {
+footer ul:hover {
     --white: rgba(256, 256, 256, 0.5)
 }
 
-.footer ul li {
+footer ul li {
     margin: 0px 10px;
 }
 
-.footer ul li svg {
+footer ul li svg {
     fill: var(--white);
 }
-.footer ul li svg:hover{
+footer ul li svg:hover{
     --white: white;
 }

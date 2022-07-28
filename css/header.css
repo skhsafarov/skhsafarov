@@ -1,21 +1,72 @@
-.header{
+
+header {
     position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100vw;
-    font-size: 25px;
+    padding: 25px 31px 0 31px;
 }
-.header a{
-}
-.header ul {
+
+header>nav {
     display: flex;
-    font-size: 20px;
+    font-size: 0.8125em;
+    width: 100vw;
+    letter-spacing: 0.4em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
-.header ul li{
-    margin: 0px 10px;
+
+#toggle {
+    display: none;
 }
-.header a, .header ul li a{
+
+header>nav>a {
+    font-family: "TrumpGothicPro";
+    font-size: 2.5em;
+    width: 50%;
+    max-width: 850px;
+}
+
+header>nav>ul {
+    display: flex;
+    padding: 0;
+    width: 50%;
+    justify-content: end;
+    flex-wrap: wrap;
+    max-width: 850px;
+}
+
+header>nav>ul>li {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+header>nav a {
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+header>nav a:hover {
+    opacity: 0.5;
+}
+
+.menu-btn {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 2.5em;
+    width: 2.8em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    height: 10%;
+    width: 80%;
+    background-color: #fff;
 }
