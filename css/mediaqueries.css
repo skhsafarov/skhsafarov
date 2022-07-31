@@ -44,6 +44,18 @@
     #toggle:checked~.nav {
         margin-left: 0;
     }
+    #toggle:checked~.menu-btn>.line:nth-child(1) {
+        position: absolute;
+        transform: rotate(45deg);
+    }
+    #toggle:checked~.menu-btn>.line:nth-child(2) {
+        position: absolute;
+        display: none;
+    }
+    #toggle:checked~.menu-btn>.line:nth-child(3) {
+        position: absolute;
+        transform: rotate(-45deg)
+    }
 
     header>.menu-btn {
         position: sticky;
@@ -56,6 +68,9 @@
         margin: 1em 2em;
         text-align: center;
 
+    }
+    header>nav>ul>li>a:active~#toggle{
+        display: block;
     }
 
     header>nav>ul {

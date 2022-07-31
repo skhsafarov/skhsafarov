@@ -63,10 +63,13 @@ header>nav a:hover {
     height: 2.5em;
     width: 2.8em;
     background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
 }
 
 .line {
+    position: relative;
     height: 10%;
     width: 80%;
     background-color: #fff;
+    transition: 1s;
 }
