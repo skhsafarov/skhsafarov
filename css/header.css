@@ -5,7 +5,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding: 25px 31px 0 31px;
+    padding-top: 25px;
 }
 
 header>nav {
@@ -18,6 +18,7 @@ header>nav {
     align-items: center;
     white-space: nowrap;
     overflow-x: hidden;
+    padding: 0 31px;
 }
 
 #toggle {

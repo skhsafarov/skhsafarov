@@ -33,6 +33,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        padding: 0;
         background-color: rgba(0, 0, 0, 0.5);
         top: 0;
         width: calc(100vw - 2.8em);
@@ -69,7 +70,7 @@
         text-align: center;
 
     }
-    header>nav>ul>li>a:active~#toggle{
+    header>nav>ul>li>a:focus~#toggle{
         display: block;
     }
 
@@ -85,7 +86,9 @@
     header>nav>ul>li {
         margin: 1em 6em;
     }
-
+    .main > h1{
+        font-size: 5.5625rem;
+    }
     footer {
         justify-content: center;
     }
