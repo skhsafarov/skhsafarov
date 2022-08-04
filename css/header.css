@@ -1,11 +1,9 @@
-
 header {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding-top: 25px;
 }
 
 header>nav {
@@ -18,18 +16,25 @@ header>nav {
     align-items: center;
     white-space: nowrap;
     overflow-x: hidden;
-    padding: 0 31px;
+    padding: 25px 31px 0 31px;
 }
 
-#toggle {
+#toggle,
+#radio1,
+#radio2,
+#radio3 {
     display: none;
 }
 
-header>nav>a {
+header>nav>.logo {
     font-family: "TrumpGothicPro";
     font-size: 2.5em;
     width: 50%;
     max-width: 850px;
+}
+
+header>nav>.logo>a {
+    margin: 0 15px;
 }
 
 header>nav>ul {

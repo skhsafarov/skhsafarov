@@ -17,12 +17,25 @@
 <body>
     <header>
         <input type="checkbox" id="toggle">
-        <nav class="nav">
-            <a href="/">Sardor Safarov</a>
+        <input type="radio" name="radio" id="radio1">
+        <input type="radio" name="radio" id="radio2">
+        <input type="radio" name="radio" id="radio3">
+        <nav>
+            <div class="logo">
+                <a href="/">Sardor Safarov</a>
+            </div>
             <ul>
-                <li><a href="#section1">Home</a></li>
-                <li><a href="#section2">Movies reommendation</a></li>
-                <li><a href="#section3">Projects</a></li>
+                <li>
+                    <a href="#section1" onclick="foo('#radio1')">Home</a>
+                </li>
+                <li>
+                    <a href="#section2" onclick="foo('#radio2')">Movies reommendation</a>
+                </li>
+                <li>
+                    <a href="#section3" onclick="foo('#radio3')">
+                        Projects
+                    </a>
+                </li>
             </ul>
         </nav>
         <label class="menu-btn" for="toggle">
@@ -32,7 +45,11 @@
         </label>
     </header>
     <section id="section1" class="main">
-        <div class="bg1"></div>
+
+        <iframe class="bg1" width="100vw" height="100vh"
+            frameborder="0" allow="autoplay" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         <h1><a>Sardor Safarov</a></h1>
     </section>
     <section id="section2" class="main">
@@ -71,6 +88,12 @@
             </li>
         </ul>
     </footer>
+    <script>
+        function foo(id) {
+            document.querySelector(id).checked = true;
+            document.querySelector('#toggle').checked = false;
+        }
+    </script>
 </body>
 
 </html>
