@@ -10,7 +10,6 @@
 
 .main>h1 {
     font-family: "TrumpGothicPro";
-    color: #fff;
     font-size: 6.5625rem;
     letter-spacing: 0.07rem;
     text-align: center;
@@ -21,12 +20,17 @@
     opacity: 0.5;
 }
 
+.main>h1>a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .main>div>div {
     background-size: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     min-width: 100vw;
     min-height: 100vh;
-    
+
 }
 
 #section1 {
