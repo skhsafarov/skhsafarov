@@ -8,7 +8,7 @@ footer {
     transform-style: preserve-3d;
 }
 
-footer ul {
+footer> ul {
     --white: #ffffff;
     display: flex;
     justify-content: center;
@@ -16,17 +16,17 @@ footer ul {
     margin-left: 100px;
 }
 
-footer ul:hover {
+footer >ul:hover {
     --white: rgba(256, 256, 256, 0.5)
 }
 
-footer ul li {
+footer >ul> li {
     margin: 0px 10px;
 }
 
-footer ul li svg {
+footer >ul >li a {
     fill: var(--white);
 }
-footer ul li svg:hover{
+footer> ul >li a:hover{
     --white: white;
 }

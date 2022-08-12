@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.main > h1 {
+.main>h1 {
     font-family: "TrumpGothicPro";
     color: #fff;
     font-size: 6.5625rem;
@@ -16,8 +16,17 @@
     text-align: center;
     text-transform: uppercase;
 }
-.main > h1:hover{
+
+.main>h1:hover {
     opacity: 0.5;
+}
+
+.main>div>div {
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-width: 100vw;
+    min-height: 100vh;
+    
 }
 
 #section1 {
@@ -27,7 +36,7 @@
 }
 
 .bg1 {
-    background-image: url('../img/pano2-cropped+and+healed.jpg');
+    background-image: url('../img/landscape.jpg');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
@@ -44,7 +53,7 @@
 }
 
 .bg2 {
-    background-image: url('../img/second.jpg');
+    background-image: url('../img/movies.jpg');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
@@ -61,7 +70,7 @@
 }
 
 .bg3 {
-    background-image: url('../img/image-asset.jpeg');
+    background-image: url('../img/projects.jpeg');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
