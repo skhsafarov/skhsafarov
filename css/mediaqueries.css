@@ -1,20 +1,20 @@
 @media screen and (max-width: 991px) {
     html {
-        font-size: 14px;
+        font-size: 13px;
     }
 
 }
 
 @media screen and (max-width: 767px) {
     html {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
 
 @media screen and (max-width: 479px) {
     html {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     header {
@@ -96,10 +96,6 @@
     #radio2:checked~nav>ul>li:nth-child(2)>a,
     #radio3:checked~nav>ul>li:nth-child(3)>a {
         opacity: 0.5;
-    }
-
-    .main>h1 {
-        font-size: 4.5625rem;
     }
 
     footer {
