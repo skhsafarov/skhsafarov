@@ -2,7 +2,7 @@
 
 <!--
 
-Publick [https://drive.google.com/drive/folders/1LgRZfCOTOxDoVQF7GAn5pbgJjJyUflSc?usp=sharing]
+[Public] (https://drive.google.com/drive/folders/1LgRZfCOTOxDoVQF7GAn5pbgJjJyUflSc?usp=sharing)
 
 Here are some ideas to get you started:
 
