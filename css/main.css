@@ -40,7 +40,7 @@
 }
 
 .bg1 {
-    background-image: url('../img/landscape.jpg');
+    background-image: url('img/landscape.webp');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
@@ -57,7 +57,7 @@
 }
 
 .bg2 {
-    background-image: url('../img/movies.jpg');
+    background-image: url('img/movies.jpg');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
@@ -74,7 +74,7 @@
 }
 
 .bg3 {
-    background-image: url('../img/projects.jpeg');
+    background-image: url('img/projects.jpeg');
     background-position: center center;
     background-size: cover;
     min-width: 100vw;
