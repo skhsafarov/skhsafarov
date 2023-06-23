@@ -1,1 +1,1 @@
-[Public](skhsafarov.github.io/skhsafarov/my.vcf/)
+[Public](https://skhsafarov.github.io/skhsafarov/my.vcf/)
