@@ -1,29 +1,28 @@
 BEGIN:VCARD
-VERSION:4.0
-N:Safarov;Sardor;;Mr.;
-FN:Mr. Sardor Safarov
-TEL;TYPE=cell:+79773864255
-TEL;TYPE=cell:+998958228850
-BDAY:1999-12-10
-GENDER:M
-KIND:individual
-TZ:Russia/Moscow
-TITLE:Software Engineer
-CATEGORIES:Programmer, IT Specialist, Sportsman, Athlete, Wrestler, Movie Lover, Lover of the Warcraft universe, Unique personality.
-NOTE:I am proficient in Tiger-Crane Style,\nand I am more than proficient in the exquisite art of the Samurai sword.
-
-PHOTO;MEDIATYPE=image/jpeg:https://skhsafarov.github.io/skhsafarov/img/projects.jpeg
-LOGO;MEDIATYPE=image/jpeg:https://skhsafarov.github.io/skhsafarov/img/projects.jpeg
-SOURCE:https://skhsafarov.github.io/skhsafarov/my.vcf
-SOUND;MEDIATYPE=audio/ogg:https://skhsafarov.github.io/skhsafarov/sound.ogg
-URL:https://skhsafarov.github.io/skhsafarov/
-URL;TYPE=socialprofile:https://www.instagram.com/sardorsafarovs/
-URL;TYPE=socialprofile:https://t.me/sardorsafarovs
-URL;TYPE=socialprofile:https://www.facebook.com/sardorsafarovs/
-URL;TYPE=socialprofile:https://www.linkedin.com/in/sardorsafarov/
-EMAIL;TYPE=home:skhsafarov@gmail.com
-EMAIL;TYPE=work:skhsafarov@edu.hse.ru
-EMAIL:skhsafarov@yandex.ru
-ADR;TYPE=home:;;998 Airole Way;Los Angeles;California;90077;USA
-ADR;TYPE=work:;;11 Wall St;New York;New York;10005;USA
+  VERSION:4.0
+  N:Safarov;Sardor;;Mr.;
+  FN:Mr. Sardor Safarov
+  TEL;TYPE=cell:+998958228850
+  BDAY:1999-12-10
+  GENDER:M
+  KIND:individual
+  TZ:Russia/Moscow
+  TITLE:Software Engineer
+  CATEGORIES:Programmer, IT Specialist, Sportsman, Athlete, Wrestler, Movie Lover, Lover of the Warcraft universe, Unique personality.
+  NOTE:I am proficient in Tiger-Crane Style,\nand I am more than proficient in the exquisite art of the Samurai sword.
+  
+  PHOTO;MEDIATYPE=image/jpeg:https://skhsafarov.github.io/skhsafarov/img/projects.jpeg
+  LOGO;MEDIATYPE=image/jpeg:https://skhsafarov.github.io/skhsafarov/img/projects.jpeg
+  SOURCE:https://skhsafarov.github.io/skhsafarov/my.vcf
+  SOUND;MEDIATYPE=audio/ogg:https://skhsafarov.github.io/skhsafarov/sound.ogg
+  URL:https://skhsafarov.github.io/skhsafarov/
+  URL;TYPE=socialprofile:https://www.instagram.com/sardorsafarovs/
+  URL;TYPE=socialprofile:https://t.me/sardorsafarovv
+  URL;TYPE=socialprofile:https://www.facebook.com/sardorsafarovs/
+  URL;TYPE=socialprofile:https://www.linkedin.com/in/sardorsafarov/
+  EMAIL;TYPE=home:skhsafarov@gmail.com
+  EMAIL;TYPE=work:skhsafarov@edu.hse.ru
+  EMAIL:skhsafarov@yandex.ru
+  ADR;TYPE=home:;;998 Airole Way;Los Angeles;California;90077;USA
+  ADR;TYPE=work:;;11 Wall St;New York;New York;10005;USA
 END:VCARD
